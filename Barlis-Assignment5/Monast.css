@@ -1,0 +1,354 @@
+body {
+    font-size: 15px;
+    padding-top: 72px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/**************styling for the home page***********/
+.home h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #cc0000;
+    margin: 0;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+.home h2 {
+    font-size: 17px;
+    text-align: center;
+    color: firebrick;
+    margin: 0;
+}
+.homeDescription {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+.img-blur {
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.ourmost {
+    padding-left: 100px;
+}
+
+
+/**styling for new build on home page**/
+.newestBuild {
+    display: inline-block;
+    padding-left: 150px;
+    width: 70%;
+    overflow: auto;
+}
+.newestBuild img {
+    width: 40%;
+    float: right;
+    padding-left: 60px;
+    cursor: pointer;
+}
+/*styling for footer for social*/
+.social {
+    padding-top: 100px;
+    padding-right: 40px;
+    margin-bottom: 50px;
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+.social img {
+    width: 30px;
+}
+
+
+/***********styling for About Us**************/
+#ben {
+    height: 300px;
+    margin-top: 0;
+}
+/*styling for lists in About Us page*/
+.aboutContent {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+#please {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+/*styling for extra bar*/
+.extraBar {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    background-color: #cc0000;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+/*!*styling for accordion content*!*/
+.accordion h4 {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-weight: bold;
+}
+.accordion ul li {
+    display: list-item;
+    font-size: 15px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+.accordion ol li {
+    display: list-item;
+    font-size: 15px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+.accordion {
+    text-align: left;
+    transition: 0.3s;
+}
+#pricing {
+    text-align: center;
+    padding-top: 5%;
+}
+/*styling of accordion header*/
+.accordion .ui-accordion-header:hover {
+    background: #cc0000;
+    color: white;
+}
+.accordion .ui-accordion-header-active {
+    background: #cc0000;
+}
+/**********CHANGE TOGGLE ICON********/
+.accordion .toggle_icon {
+    left: 10px;
+    top: 17px;
+}
+#accordion {
+    padding: 5px;
+    width: 600px;
+    display: inline-block;
+}
+
+/*positioning of Most Recent Build header*/
+.recent {
+    text-align: center;
+    color: #cc0000;
+}
+#tech {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    background-color: #cc0000;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1;
+}
+
+
+/************styling the items of the navigation bar*************/
+/*styling the navigation bar*/
+.Navigation {
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+    background-color: #1a1a1a;
+    font-weight: bold;
+    z-index: 5;
+}
+li {
+    float: top;
+    display: inline-block;
+    padding: 15px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Change color of tab when being hovered over*/
+li a:hover {
+    color: #cc0000;
+    transition: 0.3s;
+}
+/*Color of active page*/
+.active {
+    color: #cc0000;
+}
+
+/*************Styling for breadcrumbs in Most Recent Build and Question pages***************/
+/* Style the list */
+.breadcrumb {
+    list-style: none;
+}
+
+/* Display list items side by side */
+.breadcrumb li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+.breadcrumb li+li:before {
+    /*padding-left: 0px;*/
+    padding-right: 20px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+.breadcrumb li a {
+    color: #ff6666;
+    text-decoration: none;
+    padding: 0;
+}
+
+/* Add a color on mouse-over */
+.breadcrumb li a:hover {
+    color: #991f00;
+    text-decoration: underline;
+}
+
+/*dropdown menu for Home button*/
+/*.dropbtn {*/
+/*    position: relative;*/
+/*}*/
+/*.dropdown .dropbtn {*/
+/*    background-color: inherit;*/
+/*    margin: 0;*/
+/*    color: white;*/
+/*    padding: 14px 16px;*/
+/*    font-size: 15px;*/
+/*    font-family: inherit;*/
+/*    font-weight: bold;*/
+/*    border: none;*/
+/*}*/
+/*.dropdown:hover .dropbtn {*/
+/*    color: #cc0000;*/
+/*    transition: 0.3s;*/
+/*    background-color: #262626;*/
+/*}*/
+/*.dropdown-content {*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    background-color: #262626;*/
+/*    min-width: 160px;*/
+/*    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+/*    z-index: 5;*/
+/*    transition: 0.3s;*/
+/*    opacity: 95%;*/
+/*}*/
+/*.dropdown-content a {*/
+/*    float: none;*/
+/*    color: white;*/
+/*    padding: 12px 16px;*/
+/*    text-decoration: none;*/
+/*    display: block;*/
+/*    text-align: left;*/
+/*}*/
+/*.dropdown-content a:hover {*/
+/*    color: #cc0000;*/
+/*    transition: 0.3s;*/
+/*}*/
+/*.dropdown:hover .dropdown-content {*/
+/*    display: block;*/
+/*}*/
+
+
+/************Styling for the Answers Forum************/
+#qa {
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 40%;
+}
+#qa h3 {
+    color: #ff6666;
+    margin-bottom: 0;
+}
+/*styling for headers in Answers, Question, and Request pages*/
+#formsHeader {
+    color: #cc0000;
+    text-align: center;
+}
+
+/*styling for Ask a Question button*/
+.askQuestion {
+    float: left;
+    width: auto;
+    color: #cc0000;
+    background-color: #ffe6e6;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 1px solid #cc0000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.askQuestion:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #cc0000;
+}
+
+
+/****************styling for table in specs in Most Recent page******************/
+/*image slider for recent build parts*/
+.bx-wrapper {
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.specs {
+    padding-top: 250px;
+    padding-left: 50px;
+}
+.specsTable {
+    display: table;
+    padding-left: 30px;
+    border-spacing: 15px;
+}
+.specLabels {
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+/*styling for Google forms in Request and Question*/
+iframe {
+    width: 640px;
+    height: 1000px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 10px;
+}
+.googleForm {
+    text-align: center;
+}
+

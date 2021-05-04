@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:float="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Monast Answers Forum</title>
+    <link rel="stylesheet" type="text/css" href="Monast.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="MonastBxSlider.js"></script>
+
+    <link rel="icon" href="bb.PNG">
+</head>
+<body>
+
+    <!---Set up navigation bar and set current page to be active-->
+    <ul class="Navigation">
+        <li><a id="homeHover" href="index.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a class="active" href="AnswersForum.html">ANSWERS FORUM</a></li>
+        <li><a href="Request.html">REQUEST</a></li>
+    </ul>
+
+    <!---Header-->
+    <header>
+        <h1 id="formsHeader">Answers Forum</h1>
+    </header>
+
+    <div >
+        <!---Button that takes user to Ask a Question form-->
+        <button class="askQuestion" onclick="window.location.href='Question.html'">Ask A Question</button>
+    </div><br><br><br>
+
+    <!---Content (JSON)-->
+    <main>
+        <div id="qa"></div>
+    </main>
+
+
+    <!--        <h3>What kind of computers do you customize?</h3>-->
+<!--        <p>All types! It could be for gaming, streaming, home, or office use. I build the best possible computer for the task and budget price.</p><br>-->
+<!--        <h3>How fast would I be able to get my order?</h3>-->
+<!--        <p>As fast as possible. It depends on the orders ahead of you and the complexity of the order.</p><br>-->
+<!--        <h3>Do you build setups for standing desks?</h3>-->
+<!--        <p>Yes, I do.</p><br>-->
+<!--        <h3>What started Monast company?</h3>-->
+<!--        <p>I wanted to be my own boss and do something that I have passion for.</p><br>-->
+<!--        <h3>How credible is your work?</h3>-->
+<!--        <p>I am transparent with all of my clients, I want you to keep coming back.  When requests come, I communicate clearly and honestly to the customers.-->
+<!--            My goal is to bring comfort and satisfaction to my clients.  The orders of PCs and mechanical keyboards are then assembled on-->
+<!--            <a href="https://www.mixer.com/iamMonast" target="_blank">Mixer</a>, live on stream! </p>-->
+
+
+    <footer>
+        <!---Add social media-->
+        <div class="social">
+            <a href="https://www.mixer.com/iamMonast" target="_blank"><img src="mixer.jpg" alt="mixer"></a>
+            <a href="https://www.twitter.com/iamMonast" target="_blank"><img src="twitter.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/iamMonast/" target="_blank"><img src="instagram.png" alt="instagram"></a>
+            <br/>
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a><br>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </div>
+    </footer>
+
+</body>
+</html>

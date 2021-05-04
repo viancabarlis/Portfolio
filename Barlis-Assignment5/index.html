@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monast Home</title>
+    <link rel="stylesheet" type="text/css" href="Monast.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="Monast.js"></script>
+
+
+    <link rel="icon" href="bb.PNG">
+</head>
+
+<body>
+    <!---Set up navigation bar and set current page to be active-->
+        <ul class="Navigation">
+            <li><a id="homeHover" class="active" href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="AnswersForum.html">ANSWERS FORUM</a></li>
+            <li><a href="Request.html">REQUEST</a></li>
+        </ul>
+
+    <!---header-->
+    <header class="home">
+        <div>
+            <img src="setup3.PNG" alt="setup" class="img-blur">
+        </div>
+    </header><br><br>
+
+    <div class="homeDescription">
+        <p>"Monast is here to help you build your personal mechanical keyboard and PC.<br>
+          We also offer services for making the perfect desk setup for you."</p>
+    </div>
+
+    <br><br>
+    <!---Content-->
+        <h2 class="ourmost">OUR MOST RECENT BUILD</h2>
+    <div class="newestBuild">
+        <img src="newestbuild.jpeg" alt="newbuild" class="lightbox" onclick="window.location.href='Build.html'">
+
+        <p>A ground setup more akin to traditional Japan where they sit on the ground.
+            It provides a peaceful and minimal setup which greatly improves focus.
+            This setup is used for gaming and streaming purposes, as well as some office work.</p>
+        <a id="mostRecent" href="Build.html">Learn more...</a>
+    </div>
+    <br>
+
+    <footer>
+        <!---Add social media-->
+        <div class="social">
+            <a href="https://www.mixer.com/iamMonast" target="_blank"><img src="mixer.jpg" alt="mixer"></a>
+            <a href="https://www.twitter.com/iamMonast" target="_blank"><img src="twitter.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/iamMonast/" target="_blank"><img src="instagram.png" alt="instagram"></a>
+            <br/>
+            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a><br>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        </div>
+    </footer>
+
+</body>
+</html>
